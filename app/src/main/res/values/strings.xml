@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Corona Feed</string>
+    <string name="countries_affected_text">Countries Affected by Corona Virus</string>
+</resources>
