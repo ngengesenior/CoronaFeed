@@ -6,5 +6,11 @@ A simple android app that curates data about the updated feeds about Corona Viru
 
 I was able to get the feed from https://infographics.channelnewsasia.com . A big thanks to the website for making the data public
 
+## SplashActivity
+
+![Splash](screenshots/splash.png)
+
+## MainActivity
+![Main](screenshots/main.png)
 ### Let us be safe
 
