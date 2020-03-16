@@ -1,31 +1,27 @@
-package com.ngengeapps.coronafeed
+package com.ngengeapps.coronafeed.ui.affected
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.View
+import androidx.fragment.app.Fragment
+import com.ngengeapps.coronafeed.R
+import com.ngengeapps.coronafeed.WebService
 import com.ngengeapps.coronafeed.adapters.CoronaCasesAdapter
-import com.ngengeapps.coronafeed.models.Content
-import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.fragment_affected_countries.*
+import kotlinx.android.synthetic.main.fragment_affected_countries.recyclerView
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
 import java.lang.Exception
 import java.net.UnknownHostException
-import kotlin.coroutines.CoroutineContext
 
-class MainActivity : AppCompatActivity() {
+class AffectedCountriesFragment : Fragment(R.layout.fragment_affected_countries) {
 
-    val webService:WebService by lazy {
+    val webService: WebService by lazy {
         WebService.create()
     }
-    val tag ="TAG--"
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-
-        supportActionBar?.hide()
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         val adapter = CoronaCasesAdapter(mutableListOf())
         recyclerView.adapter = adapter
         val uiScope = CoroutineScope(Dispatchers.Main + Job())
@@ -41,17 +37,16 @@ class MainActivity : AppCompatActivity() {
                     Log.e(tag,"Failed ${response.code()}")
                 }
 
-            } catch (unk:UnknownHostException) {
+            } catch (unk: UnknownHostException) {
 
                 Log.e(tag, "Unknown Host")
 
             }
-            catch (ex:Exception) {
+            catch (ex: Exception) {
 
                 Log.e(tag, "Exception ${ex.message}")
             }
         }
-
-
+        super.onViewCreated(view, savedInstanceState)
     }
 }

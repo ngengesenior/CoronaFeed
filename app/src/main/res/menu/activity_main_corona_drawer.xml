@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_affected"
+            android:title="@string/menu_statistics"
+            />
+        <item
+            android:id="@+id/nav_protect"
+            android:title="@string/menu_protect"
+             />
+        <item
+            android:id="@+id/nav_stay_safe_while_trvalleing"
+            android:title="@string/stay_safe_text" />
+        <item
+            android:id="@+id/nav_food_safety"
+            android:title="@string/food_safety" />
+
+        <item
+            android:id="@+id/nav_about_app"
+            android:title="@string/about_app" />
+
+    </group>
+</menu>

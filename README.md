@@ -4,13 +4,26 @@ A simple android app that curates data about the updated feeds about Corona Viru
 
 ## Thank You
 
-I was able to get the feed from https://infographics.channelnewsasia.com . A big thanks to the website for making the data public
+I was able to get the feed from https://infographics.channelnewsasia.com . A big thanks to the website for making the data public and also the [WHO Website](https://www.who.int/) for the images made public.
 
 ## SplashActivity
 
 ![Splash](screenshots/splash.png)
 
-## MainActivity
+## Statistics Phone View
 ![Main](screenshots/main.png)
-### Let us be safe
+
+
+
+## Statistics Tablet
+
+
+
+![Tablet](screenshots/main_tablet.png)
+
+![Protect yourself](screenshots/protect_yourself.png)
+
+![Navigation](screenshots/nav_view.png)
+
+Let us be safe
 

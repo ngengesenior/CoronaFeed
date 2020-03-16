@@ -1,4 +1,24 @@
 <resources>
     <string name="app_name">Corona Feed</string>
     <string name="countries_affected_text">Countries Affected by Corona Virus</string>
+    <string name="title_activity_main_corona">MainCoronaActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_protect">Protect Yourself and Others</string>
+    <string name="menu_statistics">Statistics</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="stay_safe_text">Stay Safe While Travelling</string>
+    <string name="food_safety">Food Safety</string>
+    <string name="covid">Covid-19</string>
+    <string name="about_app">About App</string>
+    <string name="about_app_description">The app is meant to simply show information on how people can protect themselves in various ways from the Corona Virus(Covid-19). The data is gotten from https://www.who.int/emergencies/diseases/novel-coronavirus-2019/ . The app also has a screen to display the number of confirmed cases by country and the number of confirmed deaths. This info is gotten from https://infographics.channelnewsasia.com/covid-19 . Big thanks to these two websites
+</string>
 </resources>

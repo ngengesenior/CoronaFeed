@@ -17,7 +17,7 @@ class SplashActivity :AppCompatActivity() {
 
         uiScope.launch {
             delay(2000)
-            startActivity(Intent(this@SplashActivity,MainActivity::class.java))
+            startActivity(Intent(this@SplashActivity,MainCoronaActivity::class.java))
             finish()
         }
     }
