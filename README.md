@@ -1,4 +1,4 @@
-## Corona Feeds
+## Corona Feed
 
 Corona Feed is android app that serves major purposes being as follows
 
