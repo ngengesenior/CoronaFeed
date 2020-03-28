@@ -15,9 +15,15 @@
         <item
             android:id="@+id/nav_stay_safe_while_trvalleing"
             android:title="@string/stay_safe_text" />
+
+        <item android:id="@+id/nav_ready"
+            android:title="@string/ready_text"/>
         <item
             android:id="@+id/nav_food_safety"
             android:title="@string/food_safety" />
+
+        <item android:id="@+id/nav_faq"
+            android:title="@string/faq"/>
 
         <item
             android:id="@+id/nav_about_app"

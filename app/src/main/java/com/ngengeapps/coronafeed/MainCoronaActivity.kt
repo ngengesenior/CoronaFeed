@@ -30,8 +30,12 @@ class MainCoronaActivity : AppCompatActivity() {
         // menu should be considered as top level destinations.
         appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.nav_protect,R.id.nav_stay_safe_while_trvalleing,R.id.nav_food_safety,
-                R.id.nav_about_app,R.id.nav_affected
+                R.id.nav_protect,
+                R.id.nav_stay_safe_while_trvalleing,
+                R.id.nav_ready,
+                R.id.nav_food_safety,
+                R.id.nav_about_app,R.id.nav_affected,
+                R.id.nav_faq
             ), drawerLayout
         )
         setupActionBarWithNavController(navController, appBarConfiguration)

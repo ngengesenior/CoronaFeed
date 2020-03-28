@@ -12,7 +12,15 @@ val protectYourselfData = listOf(R.drawable.coro_1, R.drawable.coro_2, R.drawabl
 val protectWhileTravelling = listOf(R.drawable.stay_safe1,R.drawable.stay_safe2,
     R.drawable.stay_safe3,R.drawable.stay_safe4,R.drawable.stay_safe5)
 
-val foodSafetyData = listOf(R.drawable.practice_food1,R.drawable.practice_food2,R.drawable.practice_food3)
+val beReadyData = listOf(R.drawable.ready_1,
+    R.drawable.ready_2,R.drawable.ready_3,
+    R.drawable.ready_4,R.drawable.ready_5,
+R.drawable.ready_6,R.drawable.ready_7,R.drawable.ready_8)
+
+val foodSafetyData = listOf(R.drawable.practice_food1,
+    R.drawable.practice_food2,R.drawable.practice_food3)
+
+val faqsFiles = listOf("faq","protect_yourself","treatment","risks","others")
 data class Feeds(
     @SerializedName("feed") val feed: Feed
 )

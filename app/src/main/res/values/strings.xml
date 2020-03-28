@@ -21,4 +21,6 @@
     <string name="about_app">About App</string>
     <string name="about_app_description">The app is meant to simply show information on how people can protect themselves in various ways from the Corona Virus(Covid-19). The data is gotten from https://www.who.int/emergencies/diseases/novel-coronavirus-2019/ . The app also has a screen to display the number of confirmed cases by country and the number of confirmed deaths. This info is gotten from https://infographics.channelnewsasia.com/covid-19 . Big thanks to these two websites
 </string>
+    <string name="ready_text">Get Ready For Covid 19</string>
+    <string name="faq">FAQ</string>
 </resources>

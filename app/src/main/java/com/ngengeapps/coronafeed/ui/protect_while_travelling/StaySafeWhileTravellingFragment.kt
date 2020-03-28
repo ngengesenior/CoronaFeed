@@ -4,18 +4,18 @@ import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 import com.ngengeapps.coronafeed.R
-import com.ngengeapps.coronafeed.adapters.ProtectYourselfAdapter
+import com.ngengeapps.coronafeed.adapters.ImagesInfoAdapter
 import com.ngengeapps.coronafeed.models.protectWhileTravelling
-import kotlinx.android.synthetic.main.fragment_stay_safe_while_travelling.*
+import kotlinx.android.synthetic.main.base_pager_layout.*
 
 /**
  * A simple [Fragment] subclass.
  */
-class StaySafeWhileTravellingFragment : Fragment(R.layout.fragment_stay_safe_while_travelling) {
+class StaySafeWhileTravellingFragment : Fragment(R.layout.base_pager_layout) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
 
-        val adapter = ProtectYourselfAdapter(protectWhileTravelling)
+        val adapter = ImagesInfoAdapter(protectWhileTravelling)
         viewPager.adapter = adapter
         super.onViewCreated(view, savedInstanceState)
     }

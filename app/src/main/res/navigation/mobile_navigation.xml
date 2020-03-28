@@ -18,21 +18,31 @@
         android:id="@+id/nav_protect"
         android:name="com.ngengeapps.coronafeed.ui.protection.ProtectYourselfFragmentFragment"
         android:label="@string/menu_protect"
-        tools:layout="@layout/fragment_protect" />
+        tools:layout="@layout/base_pager_layout" />
 
     <fragment
         android:id="@+id/nav_stay_safe_while_trvalleing"
         android:name="com.ngengeapps.coronafeed.ui.protect_while_travelling.StaySafeWhileTravellingFragment"
         android:label="@string/stay_safe_text"
-        tools:layout="@layout/fragment_stay_safe_while_travelling" />
+        tools:layout="@layout/base_pager_layout" />
     <fragment
         android:id="@+id/nav_food_safety"
         android:name="com.ngengeapps.coronafeed.ui.practice_food.PracticeFoodSafetyFragment"
         android:label="@string/food_safety"
-        tools:layout="@layout/fragment_practice_food_safety" />
+        tools:layout="@layout/base_pager_layout" />
     <fragment
         android:id="@+id/nav_about_app"
         android:name="com.ngengeapps.coronafeed.AboutFragment"
         android:label="@string/about_app"
         tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/nav_ready"
+        android:name="com.ngengeapps.coronafeed.ui.ready.BeReadyFragment"
+        android:label="@string/ready_text"
+        tools:layout="@layout/base_pager_layout" />
+    <fragment
+        android:id="@+id/nav_faq"
+        android:name="com.ngengeapps.coronafeed.ui.faq.FAQFragment"
+        android:label="FAQ"
+        tools:layout="@layout/fragment_faqq" />
 </navigation>
