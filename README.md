@@ -25,5 +25,7 @@ I was able to get the feed from https://infographics.channelnewsasia.com . A big
 
 ![Navigation](screenshots/nav_view.png)
 
+![FAQ](screenshots/faq.png)
+
 Let us be safe
 
