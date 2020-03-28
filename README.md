@@ -6,7 +6,8 @@ Corona Feed is android app that serves major purposes being as follows
 - [ ] Data gotten from WHO website offline to answer some frequently ask questions about COVID-19
 - [ ] Image presentations instructing users on different aspects like protecting themeselves and how to be careful
 
-
+## Get the Apk
+Get the apk here, [App](app/release/CoronaFeed.apk)
 
 ### App Screens
 
